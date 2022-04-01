@@ -1,6 +1,6 @@
 const getSavedCartItems = async () => {
-  const recuperaCarrinho = localStorage.getItem('cartItem');
-  return recuperaCarrinho;
+  const getCartItem = localStorage.getItem('cartItem');
+  return getCartItem;
 };
 
 if (typeof module !== 'undefined') {

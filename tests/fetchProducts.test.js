@@ -16,7 +16,7 @@ describe('1 - Teste a função fecthProducts', () => {
     await fetchProducts('computador');
     expect(fetch).toHaveBeenCalledWith('https://api.mercadolibre.com/sites/MLB/search?q=computador');
   })
-  it('Testa se o retorno da função fetProducts com o argumento "computador é uma estrutura de dados igual ao objeto computadorSearch', async () => {
+  it('Testa se o retorno da função fetProducts com o argumento "computador" é uma estrutura de dados igual ao objeto computadorSearch', async () => {
      const result = await fetchProducts('computador');
     expect(result).toEqual(typeof computadorSearch);
   })
