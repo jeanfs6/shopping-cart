@@ -6,7 +6,7 @@ const calculateCartItem = () => {
   const li = document.querySelectorAll('.cart__item');
   // console.log(li);
   let totalP = 0;
-  // console.log(li[0]);
+  console.log(li[0]);
   // console.log(li[0].innerText);
   // console.log(li[0].innerText.split(' '));
   // console.log(li[0].innerText.split('$'));
