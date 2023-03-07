@@ -39,6 +39,9 @@ Neste projeto desenvolvi um carrinho de compras, utilizando uma API(Application 
 ```javascript
   npm start
   ```
+### Protótipo  
+
+_[Shopping Cart](shopping-cart-seven-swart.vercel.app)_
 
 
 
